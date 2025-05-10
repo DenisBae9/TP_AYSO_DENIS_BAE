@@ -1,0 +1,189 @@
+whoami
+man man
+ls -la
+cd .ssh
+cat /etc/grouo
+cat /etc/group
+|more
+cat /etc/group |more
+ls -l
+cd
+mkdir clase4
+cd clase4
+cat > archivo1.txt
+ls -l
+cd
+-ls -l
+ls -l
+cd clase4
+pwd
+cat archivo1.txt
+tree
+cd
+tree
+sudo apt install tree
+snap install tree
+sudo apt install tree
+tree
+sudo snap install tree
+tree
+cd clase4
+mkdir -p {teoria,practica}/{clase1,clase2,clase3}
+tree
+useradd -m -s /bin/bash -c "Denis Bae" -G Denis Bae
+cd
+useradd -m -s /bin/bash -c "Denis Bae" -G Denis Bae
+useradd -m -s /bin/bash -c "Denis Bae" -G Denis
+whoami
+id
+groupadd Alumnos
+cd clase4
+groupadd Alumnos
+sudo groupadd Alumnos
+useradd -m -s /bin/bash -c "Denis Bae" -G Denis Bae
+sudo useradd -m -s /bin/bash -c "Denis Bae" -G Alumnos Denis
+su -Denis
+su - Denis
+1
+su - Denis
+Denis Bae
+su - Denis
+sudo useradd -m -s /bin/bash -c "denis" -G Alumnos Denis
+exit
+ls -l
+tree
+passwd Denis
+sudo passwd Denis
+su Denis
+su vagrant
+su - Denis
+touch texto.txt
+ls -l
+rm texto.txt
+su Denis
+su denis
+su Denis
+su - Denis
+pwd
+sudo chown vagrant:vagrant /home/Denis/texto.txt
+cd
+ls -l
+ls -l /home
+cd ..
+cd Denis
+ls -l
+cd ..
+su - Denis
+ls -l /home/Denis
+ls -l /home/Denis/
+cd
+ls -l /home/Denis/
+sudo chown /home/Denis/texto.txt
+sudo chown vagrant:vagrant /home/Denis/texto.txt
+ls-l /home/Denis/texto.txt
+ls -l /home/Denis/texto.txt
+sudo ls -l /home/Denis/texto.txt
+su - Denis
+ls -l
+cat README
+ssh-keygen -t ed25519
+ls -l
+ls -la
+ls -l .ssh
+cat $HOME/.ssh/*.pub
+ls -l
+cd repogit
+ls -l
+git clone git@github.com:DenisBae9/TP_AYSO_DENIS_BAE.git
+ls -l
+cd TP_AYSO_DENIS_BAE
+ls -l
+cat /etc/os-release
+man grep
+vagrant halt
+cd..
+cd ..
+vagrant halt
+quit
+ls -l
+sudo vagrant halt
+ls -la
+ls -l
+ls -la
+cd .ssh
+ls -l
+cat *.pub
+cd ..
+cd repogit
+git clone git@github.com:DenisBae9/TP_AYSO_DENIS_BAE.git
+ls -l
+cd TP_AYSO_DENIS_BAE/
+cd ..
+cd TP_AYSO_DENIS_BAE/
+pwd
+cat /etc/os-release
+grep -i Home_url /etc/os-release
+ls -l
+cat --help
+ls -l
+grep -i Home_url /etc/os-release >
+datos_url.txt 
+grep -i Home_url /etc/os-release > datos_url.txt
+ls -l
+cat datos_url.txt 
+whoami
+echo “Usuario=$(whoami)” > datos_usuario.txt
+ls -l
+git add .
+git config --global user.name "denisbae025@gmail.com"
+git config --global user.email "denisbae025@gmail.com"
+git config --global user.name "DenisBae9"
+ejercicio sobre datos_usuarios.txt"
+
+git
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ls -l
+cd repogit
+ls -l
+cd TP_AYSO_DENIS_BAE/
+cd
+cd repogit
+cd TP_AYSO_DENIS_BAE/
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuarios.txt"
+ls -l
+git add .
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuarios.txt"
+git status
+git push
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuarios.txt
+cat datos_usuarios.txt 
+ls -l
+cat datos_usuario.txt 
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuario.txt
+cat datos_usuario.txt 
+rm datos_usuarios.txt
+ls -l
+cat <<EOF >> README.md
+Alumno: Denis Bae
+División: 211
+Turno: Tarde
+EOF
+
+git add README.md datos_usuario.txt 
+git commit -m "ADD: añadiendo readme y datos de usuario"
+git push
+history -a
